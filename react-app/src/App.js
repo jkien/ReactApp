@@ -2,7 +2,14 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Login from './Login'
+
+//const configureStore = () =>
+  //createStore(rootReducer, middleware);
+
+
 class App extends Component {
+  
   render() {
     return (
       <div className="App">
@@ -10,6 +17,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1>JASON RULES</h1>
           <h2>Welcome to React</h2>
+          <Login />
         </div>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
